@@ -1,0 +1,51 @@
+body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1em;
+}
+
+@media only screen and (max-width: 720px) {
+  body {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+img {
+  height: 150px;
+  padding: 1em;
+  background: black;
+}
+
+#cat-tasks {
+  background: #F5E180;
+  box-shadow: 5px 6px grey;
+  text-decoration: underline;
+}
+
+#cat-tasks li {
+  margin-bottom: 0.5em;
+}
+
+#cat-names {
+  text-align: center;
+  padding: 1em;
+  border: solid black 2px;
+}
+
+#cat-names h2 {
+  font-family: "Times New Roman", Times, sans-serif;
+  margin-bottom: 0;
+}
+
+#cat-names h3 {
+  margin-top: 0;
+  text-decoration: overline;
+  font-family: cursive;
+  font-size: 1.6em;
+}
+
+#cat-facts {
+  background: #333;
+  color: white;
+  padding: 1em;
+}
